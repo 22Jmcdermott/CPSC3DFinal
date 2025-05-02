@@ -1,0 +1,323 @@
+<CoordinateSystem> { y-up-left }
+
+<Texture> TextureMap { "maps/TextureMap.tif"
+	<Scalar> format { rgb }
+	<Scalar> wrap { repeat }
+}
+
+<Group> button {
+	<Transform> {
+		<Matrix4> { 
+			3.2808398950131235 0.0 0.0 0.0 
+			0.0 3.2808398950131235 0.0 0.0 
+			0.0 0.0 3.2808398950131235 0.0 
+			0.0 0.0 0.0 1.0 
+		}
+	}
+	<VertexPool> button.verts {
+		<Vertex> 0 { 0.13988124909565416 0.2906645729662069 0.040532950253713236
+			<Normal> { -0.001758949385327715 2.4137114054887627 2.222139965205055 }
+			<UV> { 0.0 0.0 }
+		}
+		<Vertex> 1 { -0.13987969193970343 0.2906652515290681 0.04031098599694808
+			<Normal> { -2.3044256635225353 7.770577415701258E-6 2.3352802581987357 }
+			<UV> { 0.0 0.0 }
+		}
+		<Vertex> 2 { -0.13988027587318713 0.03633718964913935 0.04031128192674341
+			<Normal> { -2.304426445735721 8.02071531384733E-6 2.3352792804322533 }
+			<UV> { 0.0 0.0 }
+		}
+		<Vertex> 3 { 0.13988065669936633 0.03633654925543916 0.04053324618350856
+			<Normal> { 2.300714453061422 -2.6724023285925817E-6 2.338936322630234 }
+			<UV> { 0.0 0.0 }
+		}
+		<Vertex> 4 { 0.18047842058377603 0.3275420216423244 6.354311575471253E-4
+			<Normal> { -0.001758949385327715 2.4137114054887627 2.222139965205055 }
+			<UV> { 0.0 0.0 }
+		}
+		<Vertex> 5 { 0.18047762508018955 -5.411875116976911E-4 6.358147433331593E-4
+			<Normal> { 2.300714453061422 -2.6724023285925817E-6 2.338936322630234 }
+			<UV> { 0.0 0.0 }
+		}
+		<Vertex> 6 { -0.18041396786766753 -5.403591878926008E-4 3.4947399816067574E-4
+			<Normal> { -2.3044256635225353 7.770577415701258E-6 2.3352802581987357 }
+			<UV> { 0.0 0.0 }
+		}
+		<Vertex> 7 { -0.18041317236408105 0.32754280198961466 3.4914352120398075E-4
+			<Normal> { -2.3044256635225353 7.770577415701258E-6 2.3352802581987357 }
+			<UV> { 0.0 0.0 }
+		}
+	}
+	<Polygon>  {
+		<TRef> { TextureMap }
+		<RGBA> { 1.0 1.0 1.0 1.0 }
+		<BFace> { 0 }
+		<VertexRef> { 2 1 0 <Ref> { button.verts } }
+	}
+	<Polygon>  {
+		<TRef> { TextureMap }
+		<RGBA> { 1.0 1.0 1.0 1.0 }
+		<BFace> { 0 }
+		<VertexRef> { 0 3 2 <Ref> { button.verts } }
+	}
+	<Polygon>  {
+		<TRef> { TextureMap }
+		<RGBA> { 1.0 1.0 1.0 1.0 }
+		<BFace> { 0 }
+		<VertexRef> { 6 5 4 <Ref> { button.verts } }
+	}
+	<Polygon>  {
+		<TRef> { TextureMap }
+		<RGBA> { 1.0 1.0 1.0 1.0 }
+		<BFace> { 0 }
+		<VertexRef> { 4 7 6 <Ref> { button.verts } }
+	}
+	<Polygon>  {
+		<TRef> { TextureMap }
+		<RGBA> { 1.0 1.0 1.0 1.0 }
+		<BFace> { 0 }
+		<VertexRef> { 2 3 5 <Ref> { button.verts } }
+	}
+	<Polygon>  {
+		<TRef> { TextureMap }
+		<RGBA> { 1.0 1.0 1.0 1.0 }
+		<BFace> { 0 }
+		<VertexRef> { 5 6 2 <Ref> { button.verts } }
+	}
+	<Polygon>  {
+		<TRef> { TextureMap }
+		<RGBA> { 1.0 1.0 1.0 1.0 }
+		<BFace> { 0 }
+		<VertexRef> { 3 0 4 <Ref> { button.verts } }
+	}
+	<Polygon>  {
+		<TRef> { TextureMap }
+		<RGBA> { 1.0 1.0 1.0 1.0 }
+		<BFace> { 0 }
+		<VertexRef> { 4 5 3 <Ref> { button.verts } }
+	}
+	<Polygon>  {
+		<TRef> { TextureMap }
+		<RGBA> { 1.0 1.0 1.0 1.0 }
+		<BFace> { 0 }
+		<VertexRef> { 0 1 7 <Ref> { button.verts } }
+	}
+	<Polygon>  {
+		<TRef> { TextureMap }
+		<RGBA> { 1.0 1.0 1.0 1.0 }
+		<BFace> { 0 }
+		<VertexRef> { 7 4 0 <Ref> { button.verts } }
+	}
+	<Polygon>  {
+		<TRef> { TextureMap }
+		<RGBA> { 1.0 1.0 1.0 1.0 }
+		<BFace> { 0 }
+		<VertexRef> { 1 2 6 <Ref> { button.verts } }
+	}
+	<Polygon>  {
+		<TRef> { TextureMap }
+		<RGBA> { 1.0 1.0 1.0 1.0 }
+		<BFace> { 0 }
+		<VertexRef> { 6 7 1 <Ref> { button.verts } }
+	}
+	<Group> Button {
+		<Transform> {
+			<Matrix4> { 
+				1.0 0.0 0.0 0.0 
+				0.0 1.0 0.0 0.0 
+				0.0 0.0 1.0 0.0 
+				4.1545154657548187E-4 0.051251365422634525 0.008024786372482608 1.0 
+			}
+		}
+		<VertexPool> button.Button.verts {
+			<Vertex> 0 { 0.06868249139578707 0.2136920189568055 0.10124956635723856
+				<Normal> { -0.3632458948635367 -0.7223758328305142 3.1796439973701016 }
+				<UV> { 0.0 0.0 }
+			}
+			<Vertex> 1 { 0.08027080794176669 0.1430002328185424 0.09949274953433287
+				<Normal> { -0.5497883154651312 0.41310047227253754 3.207957572511488 }
+				<UV> { 0.0 0.0 }
+			}
+			<Vertex> 2 { 0.06882164951519698 0.2155465779074706 0.027591152329712397
+				<Normal> { 1.602783955614085 2.861711492375752 0.07484823812454391 }
+				<UV> { 0.0 0.0 }
+			}
+			<Vertex> 3 { 0.08040996182977457 0.14485480873327902 0.0258343879220506
+				<Normal> { 2.4342589725659587 -2.1990302588370216 -0.050596540226671954 }
+				<UV> { 0.0 0.0 }
+			}
+			<Vertex> 4 { 0.032335156066546605 0.08984835937553887 0.0981077135408581
+				<Normal> { 0.04169934495227544 0.6542673574032121 3.2146705260739865 }
+				<UV> { 0.0 0.0 }
+			}
+			<Vertex> 5 { 0.0324743120702555 0.09170291408518606 0.024449297927993767
+				<Normal> { -0.2019842744382035 -3.273576067814364 -0.08254123147665046 }
+				<UV> { 0.0 0.0 }
+			}
+			<Vertex> 6 { -0.039027953720295896 0.09426081616446609 0.09813736570634932
+				<Normal> { 0.5991602917825143 0.34229886128990045 3.2074520672400166 }
+				<UV> { 0.0 0.0 }
+			}
+			<Vertex> 7 { -0.03888877021247364 0.0961153708741133 0.024479002145422195
+				<Normal> { -2.6861298584875475 -1.8830505490615925 -0.05233041658567319 }
+				<UV> { 0.0 0.0 }
+			}
+			<Vertex> 8 { -0.08008059332570681 0.1529149692435863 0.09955944365506134
+				<Normal> { 0.7027209665518733 -0.28794210922373875 3.1917368176728096 }
+				<UV> { 0.0 0.0 }
+			}
+			<Vertex> 9 { -0.07994143943769895 0.15476952183272458 0.02590102454124182
+				<Normal> { -3.1475632835248013 0.9254495224614782 0.017286135309089828 }
+				<UV> { 0.0 0.0 }
+			}
+			<Vertex> 10 { -0.05990933893230976 0.22164301990784632 0.1013030197334106
+				<Normal> { 0.27436330386503477 -0.7617739065894931 3.179361031750056 }
+				<UV> { 0.0 0.0 }
+			}
+			<Vertex> 11 { -0.05977018927570394 0.22349757037647566 0.027644596325966855
+				<Normal> { -1.238818791281833 3.0370676533130836 0.07388532147046149 }
+				<UV> { 0.0 0.0 }
+			}
+			<Vertex> 12 { 0.006296458161179126 0.248691349827923 0.1020551802666108
+				<Normal> { -0.3632458948635367 -0.7223758328305142 3.1796439973701016 }
+				<UV> { 0.0 0.0 }
+			}
+			<Vertex> 13 { 0.006435641669001385 0.2505459045375702 0.028396813931341847
+				<Normal> { 1.602783955614085 2.861711492375752 0.07484823812454391 }
+				<UV> { 0.0 0.0 }
+			}
+			<Vertex> 14 { 0.001234604212255677 0.16672335012547712 0.0829143607814139
+				<Normal> { -0.3632458948635367 -0.7223758328305142 3.1796439973701016 }
+				<UV> { 0.0 0.0 }
+			}
+		}
+		<Polygon>  {
+			<TRef> { TextureMap }
+			<RGBA> { 1.0 0.0 0.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 2 1 0 <Ref> { button.Button.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap }
+			<RGBA> { 1.0 0.0 0.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 2 3 1 <Ref> { button.Button.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap }
+			<RGBA> { 1.0 0.0 0.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 3 4 1 <Ref> { button.Button.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap }
+			<RGBA> { 1.0 0.0 0.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 3 5 4 <Ref> { button.Button.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap }
+			<RGBA> { 1.0 0.0 0.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 5 6 4 <Ref> { button.Button.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap }
+			<RGBA> { 1.0 0.0 0.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 5 7 6 <Ref> { button.Button.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap }
+			<RGBA> { 1.0 0.0 0.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 7 8 6 <Ref> { button.Button.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap }
+			<RGBA> { 1.0 0.0 0.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 7 9 8 <Ref> { button.Button.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap }
+			<RGBA> { 1.0 0.0 0.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 9 10 8 <Ref> { button.Button.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap }
+			<RGBA> { 1.0 0.0 0.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 9 11 10 <Ref> { button.Button.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap }
+			<RGBA> { 1.0 0.0 0.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 11 12 10 <Ref> { button.Button.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap }
+			<RGBA> { 1.0 0.0 0.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 11 13 12 <Ref> { button.Button.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap }
+			<RGBA> { 1.0 0.0 0.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 13 0 12 <Ref> { button.Button.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap }
+			<RGBA> { 1.0 0.0 0.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 13 2 0 <Ref> { button.Button.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap }
+			<RGBA> { 1.0 0.0 0.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 14 0 1 <Ref> { button.Button.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap }
+			<RGBA> { 1.0 0.0 0.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 14 1 4 <Ref> { button.Button.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap }
+			<RGBA> { 1.0 0.0 0.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 14 4 6 <Ref> { button.Button.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap }
+			<RGBA> { 1.0 0.0 0.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 14 6 8 <Ref> { button.Button.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap }
+			<RGBA> { 1.0 0.0 0.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 14 8 10 <Ref> { button.Button.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap }
+			<RGBA> { 1.0 0.0 0.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 14 10 12 <Ref> { button.Button.verts } }
+		}
+		<Polygon>  {
+			<TRef> { TextureMap }
+			<RGBA> { 1.0 0.0 0.0 1.0 }
+			<BFace> { 0 }
+			<VertexRef> { 14 12 0 <Ref> { button.Button.verts } }
+		}
+	}
+
+}
+
